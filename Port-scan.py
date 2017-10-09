@@ -12,7 +12,7 @@ n,y = 0,255
 
 if url and passw and p and t:
 	try:
-		print 'help --> ip: 192.168.1.*  or 192.168.*.*  or 10.*.*.* PS: The asterisk represents 1бл255 \r\n'
+		print 'help --> ip: 192.168.1.*  or 192.168.*.*  or 10.*.*.* PS: The asterisk represents 1~255 \r\n'
 		ip = raw_input("ip:");
 		q = Queue.Queue(t);
 		ip_l = ip.split('.');
